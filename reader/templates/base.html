@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ბიბლიოთეკა</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'book_list' %}">მთავარი გვერდი</a>
+    </nav>
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>

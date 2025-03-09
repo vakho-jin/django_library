@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>თქვენ დარეგისტრირდით წარმატებით</h1>
+<p>თქვენ გაგეხსნათ წვდომა წიგნზე: {{ book.title }}</p>
+<p>წიგნის შესახებ:</p>
+<ul>
+    <li>ავტორი: {{ book.author }}</li>
+    <li>აღწერა: {{ book.description }}</li>
+</ul>
+{% endblock %}
